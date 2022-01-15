@@ -42,17 +42,25 @@ a{
 	width: 50%;
 	margin-left: 5%;
 }
-.hero-content button {
-    padding: 15px 35px;
-    border-radius: 25px;
-    background: #E02C6D;
-    color: #fff;
-    margin-top: 20px;
+.hero-content a {
+	padding: 15px 35px;
+	border-radius: 25px;
+	background: #D4731E;
+	color: #fff;
+	margin-top: 31px;
+	font-weight: 700;
+	transition: .3s;
+	display: inline-block;
+}
+.hero-content a:hover{
+    background-color: #7E4513;
+}
+.hero-content a i {
+	margin-left: 10px;
 }
 
-.hero-content button a {
-    color: #fff;
-    margin-left: 21px;
+.hero-content a:hover{
+    transform: translate(1.1);
 }
 
 /* ================ Collection area ============== */
@@ -61,16 +69,15 @@ section.collection {
     justify-content: center;
 }
 .products {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: space-around;
-    grid-row-gap: 30px;
-    width: 1100px;
-    background: #f1f1f1;
-    box-shadow: 0px 0px 12px 0px #aaaaaa;
-    position: relative;
-    /* padding-bottom: 49px; */
-    margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-around;
+	grid-row-gap: 30px;
+	width: 1100px;
+	background: #f1f1f1;
+	box-shadow: 0px 0px 12px 0px #aaaaaa;
+	position: relative;
+	margin-bottom: 75px;
 }
 .collection > h3 {
     text-align: center;
@@ -91,10 +98,28 @@ section.collection {
     color: darkgoldenrod;
 }
 a.see-more {
-    position: absolute;
-    bottom: -38px;
-    right: 0;
-    color: #E02C6D;
+	position: absolute;
+	bottom: -58px;
+	right: 34px;
+	color: #D4731E;
+}
+.extra-area {
+	text-align: center;
+	background: #D4731E;
+	color: #fff;
+	padding: 30px;
+}
+.extra-area a{
+	background: #7E4513;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 25px;
+	margin-top: 20px;
+	display: inline-block;
+    transition: .3s;
+}
+.extra-area a:hover{
+    transform: scale(1.1);
 }
 
  /* ================ Footer area ==============  */
